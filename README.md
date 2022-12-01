@@ -27,5 +27,5 @@ $ ./easychat server
 ```
 #### Client
 ```
-$ ./easychat server
+$ ./easychat client
 ```
