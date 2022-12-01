@@ -5,6 +5,7 @@ Small client-server app demonstrates how to organize live chat without persisten
 1. Client sends getUpdates request, server sends reply if updates for this client found, otherwise it waits up to 60 sec. If updates appeared server returns it immediately
 2. After getUpdate response client send request again. If client stops to send these requests, server assumes that client disconnected and removes user from chat. So, server has one active connection with client
 
+![img](demo.png "img")
 
 ## Build and run
 ### Preconditions
